@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.container{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/wedar\ b.gif);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    background-size: cover;
+
+}
+
+.glass-box{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0.09);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.5px);
+-webkit-backdrop-filter: blur(12.5px);
+}
+
+.text-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.loc{
+    margin-top: -100px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+button{
+        background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+        margin: 20px 80px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 5px #eee;
+        border-radius: 10px;
+        display: block;
+        border: none;
+      }
+
+input{
+    height: 40px;
+    width: 300px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid rgb(154, 154, 154);
+    background: transparent;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
